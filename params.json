@@ -1,1 +1,23 @@
-{"tagline":"Website of Aseguramos.net","body":"# Aseguramos.Net \r\n### *_Aseguramos todos tus riegos_*\r\n \r\n## Estamos bajo contruccion, vuelva de nuevo muy pronto...\r\n\r\n* Auto\r\n* Vida\r\n* Edificios, Apartamentos y Casa\r\n* Transporte\r\n* Proteccion de rotura de maquinaria\r\n* SOAT\r\n\r\nPara mas infomacion por favor a:\r\n* movil: 301-673-1653\r\n* Fijo: 373-2815 (Cali)\r\n* email: velez@aseguramos.net\r\n\r\n","google":"<script type=\"text/javascript\">    var _gaq = _gaq || [];   _gaq.push(['_setAccount', 'UA-38174650-1']);   _gaq.push(['_setDomainName', 'aseguramos.net']);   _gaq.push(['_setAllowLinker', true]);   _gaq.push(['_trackPageview']);    (function() {     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);   })();  </script>","note":"Don't delete this file! It's used internally to help with page regeneration.","name":"Aseguramos.net"}
+{
+    "tagline": "Aseguramos todos sus riegos!",
+    "body": "# Aseguramos \r\n### *_Aseguramos todos tus riegos_*\r\n \r\n
+	
+	## Estamos bajo construccion, vuelva de nuevo muy pronto...\r\n\r\n
+	
+	* Auto\r\n
+	* Vida\r\n
+	* Edificios, Apartamentos y Casa\r\n
+	* Transporte\r\n
+	* Proteccion de rotura de maquinaria\r\n
+	* SOAT\r\n\r\nPara mas infomacion por favor a:\r\n
+	* movil: 301-673-1653\r\n
+	* Fijo: 373-2815 (Cali)\r\n* email: velez@aseguramos.net\r\n\r\n",
+    "google": "<script type=\"text/javascript\">    var _gaq = _gaq || [];
+             _gaq.push(['_setAccount', 'UA-38174650-1']);
+             _gaq.push(['_setDomainName', 'aseguramos.net']);
+             _gaq.push(['_setAllowLinker', true]);  
+             _gaq.push(['_trackPageview']);
+            (function() {     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);   })();  </script>",
+    "note": "Don't delete this file! It's used internally to help with page regeneration.",
+    "name": "Aseguramos.net"
+}
