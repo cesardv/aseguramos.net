@@ -8,6 +8,10 @@
 
   <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen"/>
   <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+  <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script type="text/javascript" src="javascripts/script.js"></script>
 
@@ -15,6 +19,16 @@
   <meta name="description" content="Website of Aseguramos.net">
 
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  
+  <script type="text/javascript">
+		function emailme(){
+			
+			/* alert('Hi'); */
+			$('#emailmemodal').modal('toggle');
+		
+		}
+	
+	</script>
 
 </head>
 
@@ -25,23 +39,23 @@
       <h1 class="title">Aseguramos.net</h1>
     </header>
     <div id="container">
-      <p class="tagline">Website of Aseguramos.net</p>
+      <p class="tagline">Aseguramos todos tus riegos</p>
       <div id="main" role="main">
         <div class="download-bar">
         <div class="inner">
-          <a href="https://github.com/cesardv/aseguramos.net/tarball/master" class="download-button tar"><span>Download</span></a>
-          <a href="https://github.com/cesardv/aseguramos.net/zipball/master" class="download-button zip"><span>Download</span></a>
-          <a href="https://github.com/cesardv/aseguramos.net" class="code">View Aseguramos.net on GitHub</a>
+          <!-- <a href="https://github.com/cesardv/aseguramos.net/tarball/master" class="download-button tar"><span>Download</span></a> onclick="emailme()" -->
+          <a href="form.html" data-toggle="modal" class="download-button email"><span>Mandanos un Mensaje</span></a>
+          <a href="http://aseguramos.net" class="code">Ahorra en tus seguros de auto, vivienda y negocio!</a>
         </div>
         <span class="blc"></span><span class="trc"></span>
         </div>
         <article class="markdown-body">
           <h1>Aseguramos.Net</h1>
 
-<h3><em><em>Aseguramos todos tus riegos</em></em></h3>
+<h3><em><em>Solucionando todas sus necesidades de aseguranza</em></em></h3>
 
-<h2>Estamos bajo contruccion, vuelva de nuevo muy pronto...</h2>
-
+<h2>Estamos bajo construccion, vuelva de nuevo muy pronto...</h2>
+<h4>Nuestras lineas de cobertura incluyen:</h4>
 <ul>
 <li>Auto</li>
 <li>Vida</li>
@@ -49,7 +63,7 @@
 <li>Transporte</li>
 <li>Proteccion de rotura de maquinaria</li>
 <li>SOAT</li>
-</ul><p>Para mas infomacion por favor a:</p>
+</ul><p>Para mas infomacion por favor llamar al:</p>
 
 <ul>
 <li>movil: 301-673-1653</li>
@@ -60,20 +74,46 @@
         </article>
       </div>
     </div>
+	
+	<!--  MODAL -->
+	<div id="emailmemodal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			<h3 id="myModalLabel">Contactenos</h3>
+			<script type='text/javascript'>
+			$("div#theform").load("./form.html");
+		</script>
+		</div>
+		<div id='theform' class="modal-body">
+		<p>body</p>
+		
+			<!-- EMAIL ME FORM 
+			<script src="http://www.emailmeform.com/builder/forms/jsform/5Nf9TSdsug5Ux6iJn8f9PV4" type="text/javascript"></script>
+			<div style="margin-top:18px;text-align:center">
+			<a style="text-decoration:none;" href="http://www.emailmeform.com/" target="_blank"><font face="Verdana" size="2" color="#000000">EmailMeForm-Powered</font></a>
+			</div>
+			<!-- END EMAIL ME FORM -->
+		</div>
+		<div class="modal-footer">
+			<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+			<button class="btn btn-primary">Save changes</button>
+		</div>
+	</div>
+	
     <footer>
-      <div class="owner">
+      <!-- <div class="owner">
       <p><a href="https://github.com/cesardv" class="avatar"><img src="https://secure.gravatar.com/avatar/ffe0486992130fd3bd623edddd710886?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="48" height="48"/></a> <a href="https://github.com/cesardv">cesardv</a> maintains <a href="https://github.com/cesardv/aseguramos.net">Aseguramos.net</a></p>
 
 
-      </div>
+      </div> -->
       <div class="creds">
-        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br/>theme by <a href="http://twitter.com/jonrohan/">Jon Rohan</a></small>
+        <small>Esta pagina fue generada por <a href="https://pages.github.com/">GitHub Pages</a><br/> arte por <a href="http://twitter.com/jonrohan/">Jon Rohan</a></small>
       </div>
     </footer>
   </div>
   <div class="current-section">
     <a href="#top">Scroll to top</a>
-    <a href="https://github.com/cesardv/aseguramos.net/tarball/master" class="tar">tar</a><a href="https://github.com/cesardv/aseguramos.net/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <!-- <a href="https://github.com/cesardv/aseguramos.net/tarball/master" class="tar">tar</a><a href="https://github.com/cesardv/aseguramos.net/zipball/master" class="zip">zip</a><a href="" class="code">source code</a> -->
     <p class="name"></p>
   </div>
 
